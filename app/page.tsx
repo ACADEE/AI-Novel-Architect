@@ -50,12 +50,20 @@ export default function HomePage() {
                   par {novel.author}
                 </p>
               </div>
-              <Link
-                href="/editor"
-                className="inline-flex items-center gap-2 bg-violet-600 hover:bg-violet-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-              >
-                Ouvrir l&apos;éditeur
-              </Link>
+              <div className="flex items-center gap-2">
+                <Link
+                  href="/plan"
+                  className="inline-flex items-center gap-2 border border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 text-sm font-medium px-4 py-2 rounded-lg transition-colors"
+                >
+                  Plan &amp; Audit
+                </Link>
+                <Link
+                  href="/editor"
+                  className="inline-flex items-center gap-2 bg-violet-600 hover:bg-violet-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
+                >
+                  Ouvrir l&apos;éditeur
+                </Link>
+              </div>
             </div>
 
             <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-5 line-clamp-2">
