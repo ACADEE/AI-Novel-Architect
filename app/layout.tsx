@@ -13,6 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <meta name="referrer" content="no-referrer" />
+      </head>
       <body className="antialiased font-sans">{children}</body>
     </html>
   );

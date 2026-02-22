@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { mockNovel } from "./data/mockNovel";
+import TopNav from "./components/TopNav";
 
 export default function HomePage() {
   const novel = mockNovel;
@@ -11,31 +12,27 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900">
-      {/* Header */}
-      <header className="border-b border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-6 py-4">
-        <div className="max-w-5xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-violet-600 flex items-center justify-center">
-              <span className="text-white text-sm font-bold">A</span>
-            </div>
-            <span className="text-lg font-semibold text-slate-800 dark:text-slate-100">
-              AI Novel Architect
-            </span>
-          </div>
-          <nav className="flex items-center gap-4 text-sm text-slate-600 dark:text-slate-400">
-            <span className="font-medium text-violet-600">Mes Projets</span>
-          </nav>
-        </div>
-      </header>
+      <TopNav active="projects" />
 
       <main className="max-w-5xl mx-auto px-6 py-10">
-        <div className="mb-8">
-          <h1 className="text-2xl font-bold text-slate-800 dark:text-slate-100">
-            Mes Romans
-          </h1>
-          <p className="text-slate-500 dark:text-slate-400 mt-1">
-            Gérez et rédigez vos projets d&apos;écriture assistés par IA
-          </p>
+        <div className="mb-8 flex items-end justify-between">
+          <div>
+            <h1 className="text-2xl font-bold text-slate-800 dark:text-slate-100">
+              Mes Romans
+            </h1>
+            <p className="text-slate-500 dark:text-slate-400 mt-1">
+              Gérez et rédigez vos projets d&apos;écriture assistés par IA
+            </p>
+          </div>
+          <Link
+            href="/new-book"
+            className="inline-flex items-center gap-2 bg-violet-600 hover:bg-violet-700 text-white text-sm font-medium px-4 py-2.5 rounded-lg transition-colors"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+            </svg>
+            Nouveau Roman
+          </Link>
         </div>
 
         {/* Novel Card */}
