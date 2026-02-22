@@ -18,6 +18,8 @@ export interface Chapter {
   scenes: Scene[];
   notes: string;
   objectives: string[];
+  storySoFar: string;
+  hook: string;
 }
 
 export interface Character {

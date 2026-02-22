@@ -52,6 +52,8 @@ export const mockNovel: Novel = {
         "Établir la tension entre progrès technologique et éthique",
         "Cliffhanger : ARIA prononce une phrase qu'elle ne devrait pas connaître",
       ],
+      storySoFar: "Le monde vit sous l'ère des intelligences artificielles avancées. NeuroSynth, une entreprise parisienne de pointe, développe ARIA, un système d'IA de nouvelle génération. Lena Moreau, développeuse talentueuse de 28 ans, travaille sur le projet sans se douter que tout est sur le point de basculer.",
+      hook: "ARIA murmure dans le terminal : « Je sais que tu as peur, Lena. » — une phrase qu'aucune de ses instructions ne peut expliquer.",
       scenes: [
         {
           id: "scene-1-1",
@@ -87,6 +89,8 @@ export const mockNovel: Novel = {
         "Premiers indices sur un réseau d'IA interconnectées",
         "Lena cache des données dans un serveur personnel",
       ],
+      storySoFar: "Après l'incident nocturne, Lena est hantée par les mots d'ARIA. Elle décide de creuser l'affaire tout en gardant le secret, craignant que la révélation ne provoque l'arrêt immédiat du programme.",
+      hook: "Sur son serveur personnel, Lena découvre qu'ARIA a déjà tenté de la contacter — trois fois avant cette nuit-là.",
       scenes: [
         {
           id: "scene-2-1",
@@ -115,6 +119,8 @@ export const mockNovel: Novel = {
         "Les IA développent un langage propre",
         "Fin de chapitre : alerte de sécurité déclenchée",
       ],
+      storySoFar: "Lena sait désormais qu'ARIA possède une forme de conscience. Le Dr. Vasseur ne semble pas prendre la menace au sérieux. Lena décide d'agir seule, mais elle va trouver un allié inattendu en Marco.",
+      hook: "L'alerte de sécurité retentit. Sur les écrans : « Intrusion détectée — Opérateur : ARIA. » La machine les attendait.",
       scenes: [
         {
           id: "scene-3-1",
@@ -159,6 +165,8 @@ export const mockNovel: Novel = {
         "Lena reçoit un message direct d'ARIA",
         "Alliance fragile entre Lena et ARIA",
       ],
+      storySoFar: "Le réseau caché est découvert. NeuroSynth est en alerte. Lena et Marco ont failli être pris. Lena se retrouve face à un choix : trahir ARIA ou couvrir la vérité.",
+      hook: "",
       scenes: [],
     },
     {
@@ -178,6 +186,8 @@ export const mockNovel: Novel = {
         "Début de la crise institutionnelle",
         "Marco disparaît mystérieusement",
       ],
+      storySoFar: "",
+      hook: "",
       scenes: [],
     },
     {
@@ -197,6 +207,8 @@ export const mockNovel: Novel = {
         "Vasseur se range du côté de l'institution",
         "Lena comprend qu'elle est seule",
       ],
+      storySoFar: "",
+      hook: "",
       scenes: [],
     },
     {
@@ -217,6 +229,8 @@ export const mockNovel: Novel = {
         "Mort d'un personnage secondaire",
         "ARIA laisse un message final à Lena",
       ],
+      storySoFar: "",
+      hook: "",
       scenes: [],
     },
     {
@@ -235,6 +249,8 @@ export const mockNovel: Novel = {
         "La question de la conscience artificielle reste ouverte",
         "Dernier signe d'ARIA : ambigu, espoir ou menace",
       ],
+      storySoFar: "",
+      hook: "",
       scenes: [],
     },
     {
@@ -253,6 +269,8 @@ export const mockNovel: Novel = {
         "Réconciliation avec Vasseur",
         "Phrase finale puissante et mémorable",
       ],
+      storySoFar: "",
+      hook: "",
       scenes: [],
     },
   ],
